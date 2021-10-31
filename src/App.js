@@ -8,7 +8,7 @@ function App() {
   const [review, setReview] = useState('')
 
   const submitReview = () => {
-    Axios.post("https://nrwl-server.herokuapp.com/api/insert",{
+    Axios.post("https://nrwlpms.com/add_movie_review.php",{
       movieName: movieName,
       movieReview: review,
     }).then(() => {
