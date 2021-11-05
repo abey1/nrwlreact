@@ -4,7 +4,8 @@ import React from 'react'
 import {Form,Button} from 'react-bootstrap'
 //import bg_image from '../resources/bg_image.jpg'
 //import {object,string} from 'yup'
-import { useSelector,useDispatch } from 'react-redux'
+//import { useSelector,useDispatch } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { loginToggle } from '../redux/reducers/actions'
 
 export default function Login() {
